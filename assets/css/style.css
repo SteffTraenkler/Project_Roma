@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Tangerine&display=swap');
+
+@font-face {
+    font-family: Santio bold;
+    src: url(../fonts/SANTIO/TTF/Santio\ Bold.ttf);
+}
+
+/* Font: Santio bold (CAPS), Roboto (klein geschr)
+Farbe: #e7bc0e  / #efefef / #6bc1a3 / #cb91b6 / #7eb8e1 / #000 / #fff
+ */
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Santio bold'
+}
+
+body{
+    background: url(../img/cleo-topper.jpg)  no-repeat center/cover fixed;
+    background-color: rgba(0, 0, 0, 0.568);
+    background-blend-mode: overlay;
+}
+
+header {
+    text-align: right;
+}
+
+header img{
+    width: 1.5%;
+    height: 1.5%;
+    margin: 1% 0 0 0;
+}
+
+.header {
+    color: #fff;
+    font-size: 1.5rem;
+    border-bottom: 2px solid #e7bc0e;
+    margin: 0 10% 0 2%;
+    font-family: 'Roboto', sans-serif;
+}
+
+article, h2{
+    width: 50%;
+}
+
+main article:first-child{
+    margin: 10% 8%;
+}
+
+h2{
+    color: #fff;
+    font-size: 5rem;
+}
+p{
+    font-size: 2rem;
+}
+h1{
+    font-size: 9rem;
+}
+#scroll{
+    font-family: 'Tangerine', cursive;
+    color: #e7bc0e;
+    font-size: 3rem;
+    margin: 8% auto;
+}
+main article:nth-child(2){
+    width: 43%;
+    margin: 13% 15%;
+}
+.mint{
+    color: #6bc1a3;
+    line-height: 3rem;
+}
+.span{
+    color:#fff;
+    background: #000;
+}
+.yellow{
+    color: #e7bc0e ;
+}
+.magenta{
+    color: #cb91b6;
+    margin: -5%;
+}
+.blue{
+    color: #7eb8e1;
+}
+
+a{
+    text-decoration: #e7bc0e;
+}
+
+section article img{
+    width: 150px;
+    height: 150px;
+    margin: 23% auto;
+}
+
+section article{
+    margin: 0;
+    padding: 0;
+}
+
+.hover{
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    border: 1px solid #fff;
+    padding: 3%;
+}
+
+footer p, footer a{
+    font-family: 'Roboto', sans-serif;
+}
+
