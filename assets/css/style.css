@@ -46,7 +46,7 @@ article, h2{
     width: 50%;
 }
 
-main article:first-child{
+.first_article{
     margin: 10% 8%;
 }
 
@@ -66,7 +66,7 @@ h1{
     font-size: 3rem;
     margin: 8% auto;
 }
-main article:nth-child(2){
+.second_article{
     width: 43%;
     margin: 13% 15%;
 }
@@ -80,10 +80,10 @@ main article:nth-child(2){
 }
 .yellow{
     color: #e7bc0e ;
+    margin: 0 0 8% 0;
 }
 .magenta{
     color: #cb91b6;
-    margin: -5%;
 }
 .blue{
     color: #7eb8e1;
@@ -96,11 +96,11 @@ a{
 section article img{
     width: 150px;
     height: 150px;
-    margin: 23% auto;
+    margin: 23% auto 0 auto;
 }
 
-section article{
-    margin: 0;
+section{
+    margin: 5%;
     padding: 0;
 }
 
